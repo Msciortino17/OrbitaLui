@@ -1,0 +1,125 @@
+
+*** TODOS WHEN BUILDING BETWEEN FREE AND PREMIUM VERSION ***
+-Make sure the "mFreeVersion" bool is correctly set in the game manager object
+-In player settings near the top, set the product name correctly, "OrbitaLui Free" for free, "OrbitaLui" for premium
+-In player settings > other settings > bundle identifier use "com.MichaelSciortino.OrbitaLui" for free, and "com.MichaelSciortino.OrbitaLuiPremium" for premium
+-Always increment the version and bundle code
+-In player settings > publishing settings, select the correct keystore. "key.keystore" for free, "OrbitaLui_Premium_Keystore.keystore" for premium
+-In Assets/Plugs/Android/AndroidManifest.xml, set android:authorities="com.facebook.app.FacebookContentProviderFree2069273310016826" to have Free for free version
+and remove it for premium version.
+-When building, save out as the correct .apk. "OrbitaLui_Free.apk" for free and "OrbitaLui.apk" for premium 
+
+Final TODOs:
+
+-For free version, add in "Remove ads" button in options that links to premium version in play store and update
+
+Marketing:
+-Directly tell as many friends/family as possible. Give them free downloads for premium version. Incetivize them to spread the word to their friends/family
+-Post to social media. Make a simple gameplay video too.
+	* Twitter
+	* Linkedin
+	* Reddit (CAREFUL)
+-At this point we've done all that we can. Now we just need to envision success and pray for the best. Definitely gonna make that $100,00!
+	
+Apple Release:
+-Make sure Sam has downloaded Unity, XCode, and Team viewer
+-First, get into his computer using team viewer and confirm we have control and access to the above programs
+-Transfer over the OrbitaLui project. The first iteration doesn't have to be super final release, just ensure that it gets over and runs in editor on the mac
+-Change the bundle identifier to have "Test" at the end for the first free build
+-Choose the build target in Unity to be IOS and build the XCode project, naming the file "OrbitaLui_IOS_Test"
+-Log into apple ID in XCode
+-Open the generated project and follow the instructions on https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game-ios-device-testing
+-On the phone, go to Settings > Display & Brightness > Auto-Lock and set to never (may have to set Settings > Battery > Low Power Mode to off)
+-Plug the device into the macbook using a usb and let XCode do its thing for a bit. Once it's ready to use, hit play and the app should run.
+-May get a popup at some point asking to enable developer mode, just hit yes.
+-If we can't run it because the phone doesn't trust it, go to (Settings > General > Device Management > Developer App > [your app name]) and select trust with apple id.
+
+While side money will be nice, the true purpose of this will be to build some credit in the game dev community. I'll be an official developer after this, one day when I get around to starting a blog,
+this will be what I use to pretty much say "I have officially published a game, so I must be somewhat credible. Listen to my words of wisdom!" Really promote that blog and go for the long burn with it,
+trying to build as much of a following as possible. Also make sure twitter is setup by than. This should all be in preparation for GDC 2018, I want my future blog post of "I'll be at GDC, meet me there!"
+to build up AS MUCH hype as possible. Than network the FUCK out of everyone. Long term goal being to begin relationships with other professoinals for a possible company. Short term is finding a job to gtfo of frasca.
+Talk with career dev guy from full sail about wtf to do at GDC. DO THIS AT LEAST 2 MONTHS IN ADVANCE
+
+BIG PATCH TODO::
+
+*First, focus on getting all features in and release to Android ASAP. Once that's out of the way, we can put all our focus on the apple build.
+*Be sure to really stress test all of the new features before final release.
+
+Big ones:
+	-Need a better icon and ad banners. Dedicate some time in gimp to just fucking make something good.
+	
+Minor tweaks:
+	-Need to convey to the player that they should login to facebook in the options menu
+	-Only friends who play and are logged into facebook will have their faces show up
+	-(Free version) If you are low on plays, you can invite a friend to gain a few extra plays.
+	
+	
+Bugs fixes:
+	-App invites aren't quite working
+		-Might not work... app invites seem to only work for in browser games?
+		-At the same time, it might just be because the final version isn't published yet...
+		-Either way won't matter too much, just be sure to emphasize that they should tell their friends so their faces show up on the ships
+	
+Completed
+	-remove ads
+		-They really don't generate that much revenue
+		-Having limited plays on the free version should be enough incentive to pay one dollar for full version
+		-Won't have to deal with setting it up on apple
+		-Sketchy ads could potentially be counter productive to apple approval
+	-Have sam work on the soundtrack
+	-Double check that hints are working properlyther royalty free songs, a random one plays at the start of each game. 
+		-OR have Sam make some songs
+	-Pause game when minimized
+	-Change replay time to only be 4 hours instead of 24.
+	-Make sure the android back button unpauses instead of exits (might already do this)
+	-Social media integration
+		-Just Facebook for now
+		-Be able to share to a friend
+		-Be able to pull friends profile pics 
+			-This also means being able to crop out a circle on the face and place it on the ship sprite
+		-UI changes:
+			-On the left have the large portrait of the current pilot's face with their name and title underneath
+	-Negative UI feedback sound plays twice for some reason
+	-Make button and textbox transitions more juicy
+		-Text currently fades in and out, pretty good.
+		-Make buttons come flying in from the side or top. Calculate direction based on final position
+		-Also going to want some kind of particle effect and sound effect for ship spawning. I'm thinking a large version of SRB detachment going up?
+	-Each ship should have a unique name for the captain. When on social media, use the user name. Each one has a military ranking as well.
+	-Create RIP messages for ships when they die. Messages will appear where hints do.
+	-Hints need to be moved from being in the way to the side
+	-Under score, show X/10 spare parts collected so players know when to expect an extra life.
+	-Need a sound effect for SRBs detaching
+	-Revamp free version. Put a limit on how many games can be played.
+		-You automatically get +5 plays every time:
+			-24 hours elapse (IF you have < 5 stocked)
+			-You share your scores on instagram/facebook
+			-Share directly to a friend
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

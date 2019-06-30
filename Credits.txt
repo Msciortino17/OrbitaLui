@@ -1,0 +1,21 @@
+A game by Michael Sciortino
+Unity - Engine
+Android Native Audio - https://www.assetstore.unity3d.com/en/#!/content/35295
+Audacity - Used to edit some sound effects
+Assets: 
+Nasa - Image of earth
+Music - "Dreamy Flashback" - http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100532
+FreeSound.org - Sound effects
+Fireworks - https://freesound.org/people/bmlake/sounds/251617/
+Metal groaning - https://freesound.org/people/Cell31_Sound_Productions/sounds/264014/
+Rocket thruster - https://freesound.org/people/LimitSnap_Creations/sounds/318688/
+SRB Detach 	- https://freesound.org/people/kwahmah_02/sounds/274256/
+Explosion 1 - https://freesound.org/people/Deganoth/sounds/349131/
+Explosion 2 - https://freesound.org/people/eardeer/sounds/390182/
+Explosion 3 - https://freesound.org/people/tommccann/sounds/235968/
+Explosion 4 - https://freesound.org/people/cydon/sounds/268557/
+UI Squeeks 	- https://freesound.org/people/johnnypanic/sounds/34567/
+Special Thanks:
+Luis Garcia
+Pierre Chehwan
+Taylor Famiglietti
